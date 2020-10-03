@@ -123,18 +123,6 @@ main {
   height: fit-content;
   margin-top: 1rem;
 }
-@media (max-width: 680px) {
-  .flex-container {
-    flex-direction: column;
-    gap: 0;
-  }
-  body.index .flex-container {
-    flex-direction: column-reverse;
-  }
-  .content {
-    width: 100%;
-  }  
-}
 h1 {
   font-size: 36px;
   color: #87423c;
@@ -174,6 +162,22 @@ body.index .content img {
   line-height: 150%;
   padding-left: 3rem;
 }
+@media (max-width: 680px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  body.index .flex-container {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 100%;
+  }  
+  h2 {
+    text-align: center;
+  }
+}
+
 #testimonials {
   width: 40%;
   height: fit-content;
