@@ -118,6 +118,11 @@ main {
   align-content: stretch;
   gap: 2%;
 }
+.content {
+  width: 49%;
+  height: fit-content;
+  margin: 1rem 0;
+}
 @media (max-width: 680px) {
   .flex-container {
     flex-direction: column;
@@ -126,20 +131,9 @@ main {
   body.index .flex-container {
     flex-direction: column-reverse;
   }
-}
-.content {
-  width: 49%;
-  height: fit-content;
-  margin: 1rem 0;
-}
-@media (max-width: 680px) {
-  .flex-container {
-    flex-direction: column-reverse;
-    gap: 0;
-  }
   .content {
     width: 100%;
-  }
+  }  
 }
 h1 {
   font-size: 36px;
