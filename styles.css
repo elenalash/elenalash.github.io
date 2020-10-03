@@ -122,7 +122,6 @@ main {
   width: 49%;
   height: fit-content;
   margin-top: 1rem;
-  border: solid;
 }
 @media (max-width: 680px) {
   .flex-container {
