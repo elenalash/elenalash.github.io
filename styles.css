@@ -121,7 +121,7 @@ main {
 .content {
   width: 49%;
   height: fit-content;
-  margin: 1rem 0;
+  margin-top: 1rem;
 }
 @media (max-width: 680px) {
   .flex-container {
@@ -160,6 +160,9 @@ main p {
   width: 100%;
   height: auto;
   padding-bottom: 1rem;
+}
+body.index .content img {
+  padding-bottom: 0;
 }
 .content iframe {
   display: block;
