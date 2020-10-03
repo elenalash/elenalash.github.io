@@ -143,9 +143,6 @@ h2 {
   text-align: center;
   padding: 0.5rem 0;
 }
-h2::before, h2::after {
-  content: " *** ";
-}
 main a {
   color: #87423c;
 }
@@ -169,7 +166,7 @@ body.index .content img {
   width: 100%;
 }
 .content ul {
-  list-style: none;
+  list-style: square;
   text-align: justify;
   line-height: 150%;
   padding-left: 3rem;
