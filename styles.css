@@ -30,6 +30,7 @@
   font-family: Helvetica, Calibri, Arial;
   background: transparent;
 }
+/* page wrap start */
 html {
   font-size: 1em;
 }
@@ -42,6 +43,14 @@ body {
   background: var(--main-background);
   width: var(--page-width);
 }
+@media (max-width: 480px) {
+  #page-wrap {
+    padding: 10px;
+}
+}
+/* page wrap end */  
+  
+/* header start */
 #header-bar {
   width: 100%;
   display: flex;
@@ -85,18 +94,13 @@ body.sorrento a.sorrento,
 body.prices a.prices,
 body.contacts a.contacts {
   background: var(--nav-current);
-
 }
-
 @media (max-width: 680px) {
   #logo img, #logo a {
     width: 100%;
   }
 }
 @media (max-width: 480px) {
-  #page-wrap {
-    padding: 10px;
-  }
   #nav-bar-list {
     height: 6rem;
   }
@@ -105,6 +109,9 @@ body.contacts a.contacts {
   height: 50%;
   }
 }
+/* header end */
+
+/* main start */
 main {
   width: 100%;
   margin: auto;
@@ -174,10 +181,12 @@ body.index .content img {
     width: 100%;
   }  
   h2 {
-    text-align: center;
+    text-indent: 1.5rem;
   }
 }
+/* main end */
 
+/* testimonials start */
 #testimonials {
   width: 40%;
   height: fit-content;
@@ -268,7 +277,9 @@ body.index .content img {
 #test-8 {
   animation: testimonials 80s 70s infinite;
 }
+/* testimonials end */
 
+/* footer start */
 footer {
   width: 100%;
   margin: auto;
@@ -301,3 +312,4 @@ footer a {
   height: auto;
   border-radius: 12px;
 }
+/* footer end */
