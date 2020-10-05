@@ -187,6 +187,47 @@ body.index .content img {
     width: 100%;
   }  
 }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 340px;
+  margin: auto;
+  padding: 1rem;
+ }
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: stretch;
+  padding-bottom: 0.5rem;
+  }
+label {
+  height: 100%;  
+  margin-left: 0;
+  width: fit-content;
+ 
+}
+input, textarea {
+  background: white;
+  padding: 0.3rem;
+}
+textarea {
+  height: 6rem;
+}
+#agree-submit {
+  flex-direction: row;
+}
+#submit {
+  width: 30%;
+  height: 2rem;
+  min-width: fit-content; 
+}
+#iagree {
+  width: auto;
+  margin-left: 1rem;
+
+}
 /* main end */
 
 /* testimonials start */
