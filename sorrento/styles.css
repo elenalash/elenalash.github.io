@@ -165,7 +165,8 @@ main p {
   margin: auto;
   padding-bottom: 1rem;
 }
-body.index .content img {
+body.index .content img,
+body.sitemap .content img {
   padding-bottom: 0;
 }
 .content iframe {
