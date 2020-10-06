@@ -125,10 +125,17 @@ main {
   align-content: stretch;
   gap: 2%;
 }
+body.sitemap .flex-container{
+  flex-direction: column;
+}
 .content {
   width: 49%;
   height: fit-content;
   margin-top: 1rem;
+}
+body.sitemap .content{
+  width: 80%;
+  align-self: center;
 }
 h1 {
   font-size: 36px;
@@ -183,7 +190,7 @@ body.index .content img {
   body.index .flex-container {
     flex-direction: column-reverse;
   }
-  .content {
+  .content, body.sitemap .content {
     width: 100%;
   }  
 }
@@ -205,8 +212,7 @@ form {
 label {
   height: 100%;  
   margin-left: 0;
-  width: fit-content;
- 
+  width: fit-content; 
 }
 input, textarea {
   background: white;
@@ -217,16 +223,19 @@ textarea {
 }
 #agree-submit {
   flex-direction: row;
+  padding-left: 1rem;
 }
 #submit {
   width: 30%;
   height: 2rem;
   min-width: fit-content; 
 }
+#submit:hover{
+  cursor: pointer;
+}
 #iagree {
-  width: auto;
-  margin-left: 1rem;
-
+  width: auto;  
+  margin-right: 0.5rem;
 }
 /* main end */
 
