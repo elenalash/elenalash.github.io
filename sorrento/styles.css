@@ -165,10 +165,6 @@ main p {
   margin: auto;
   padding-bottom: 1rem;
 }
-body.index .content img,
-body.sitemap .content img {
-  padding-bottom: 0;
-}
 .content iframe {
   display: block;
   width: 100%;
@@ -194,6 +190,10 @@ body.sitemap .content img {
   .content, body.sitemap .content {
     width: 100%;
   }  
+  body.index .content img,
+  body.sitemap .content img {
+    padding-bottom: 0;
+  }
 }
 form {
   display: flex;
