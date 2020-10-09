@@ -155,7 +155,7 @@ main a {
 main p {
   text-align: justify;
   line-height: 150%;
-  text-indent: 1.5rem;
+  text-indent: 0rem;
   padding-bottom: 1rem;
 }
 .content img {
@@ -195,6 +195,9 @@ main p {
     padding-bottom: 0;
   }
 }
+/* main end */
+
+/* form start */
 form {
   display: flex;
   flex-direction: column;
@@ -238,7 +241,17 @@ textarea {
   width: auto;  
   margin-right: 0.5rem;
 }
-/* main end */
+form p {
+  font-size: 0.8rem;
+}
+.required::after {
+  content: "*";
+  color: red;
+}
+#star {
+  color: red;
+}
+/* form end */
 
 /* testimonials start */
 #testimonials {
