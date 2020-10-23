@@ -24,9 +24,7 @@ html {
 body {
 
 }
-header, main, footer {
-opacity: 0.1;
-}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -153,6 +151,14 @@ img {
   color: inherit;
 }
 span {
+  visibility: hidden;
+}
+/**under construction block
+header, main, footer {
+opacity: 0.1;
+}
+span {
+    visbility: visible;
     position: fixed;
     top: 50%;
     opacity: 1;
@@ -160,4 +166,4 @@ span {
     text-align: center;
     font-size: 3rem;
 }
- 
+**/ 
