@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+  <title>Happy Childhood Daycare Waiting List Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main id="main">
+    <img src="https://cdn.newsapi.com.au/image/v1/1f7f590a2c5f2a9ff8e6385402f9915f?width=650">
+
+    <div id="head-note">
+      <h1 id="title">Jumping Monkeys Daycare Waiting List Form</h1>
+      <p id="description"> Please fill in the form bellow to register your child on our waiting list.</p>
+    </div>
+
+    <form id="survey-form">
+
+      <p>About you</p>
+      <div class="form-group"><label for="name" id="name-label">Name</label><input name="name" id="name" placeholder="Enter your name" type="text" class="form-input" required></div>
+      <div class="form-group"><label for="email" id="email-label">E-mail</label><input name="email" id="email" placeholder="Enter your e-mail" type="email" class="form-input" required></div>
+      <div class="form-group"><label for="tel" id="tel-label">Phone</label><input name="tel" id="tel" placeholder="Enter your phone number" type="tel" class="form-input" required></div>
+      <p>About your child</p>
+      <div class="child-group">
+        <label class="form-group" for="child-name" id="child-name-label">Name<input name="child-name" id="child-name" placeholder="Enter your child's name" type="text" class="form-input" required></label>
+        <label class="form-group" for="child-surname" id="child-surname-label">Surname<input name="child-surname" id="child-surname" placeholder="Enter your child's surname" type="text" class="form-input" required></label>
+        <label class="form-group" for="child-birthday" id="child-birthday-label">Day of birth<input name="child-birthday" id="child-birthday" type="date" class="form-input" required></label>
+        <label class="form-group" for="child-gender" id="child-gender-label">Gender<select name="gender" id="dropdown" class="form-input" required>
+            <option disabled selected value>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select></label>
+      </div>
+      <div class="form-group" id="number-group"><label for="number" id="number-label">
+          <p>How many days a week do you prefer to enrol your child for?</p>
+        </label><input name="number" id="number" type="number" class="form-input" min="1" max="5" placeholder="Enter 1 to 5" required></div>
+      <p>Select the prefered days of care:</p>
+      <div class="days-group">
+        <label for="monday" class="checkbox-container"><input type="checkbox" name="days" id="monday" value="monday" class="form-input">Monday<span class="checkmark-checkbox"></span></label>
+        <label for="tuesday" class="checkbox-container"><input type="checkbox" name="days" id="tuesday" value="tuesday">Tuesday<span class="checkmark-checkbox"></span></label>
+        <label for="wednesday" class="checkbox-container"><input type="checkbox" name="days" id="wednesday" value="wednesday">Wednesday<span class="checkmark-checkbox"></span></label>
+        <label for="thursday" class="checkbox-container"><input type="checkbox" name="days" id="thursday" value="thursday">Thursday<span class="checkmark-checkbox"></span></label>
+        <label for="friday" class="checkbox-container"><input type="checkbox" name="days" id="friday" value="friday">Friday<span class="checkmark-checkbox"></span></label>
+      </div>
+      <div>
+        <p>Select the prefered start of care:</p>
+        <input name="start-care" id="start-care" type="date" class="form-input" required>
+      </div>
+      <div class="other-children-group">
+        <p>Do you currently have other children enrolled in Jumping Monkeys Daycare?</p>
+        <label class="checkbox-container">
+          <input name="other-children" value="other-children-yes" type="radio" class="input-radio">Yes<span class="checkmark-radio"></span></label>
+        <label class="checkbox-container">
+          <input name="other-children" value="other-children-no" type="radio" class="input-radio" checked>No<span class="checkmark-radio"></span></label>
+      </div>
+      <div>
+        <p>Addition information <i>(optional)</i></p>
+        <textarea name="add-info" id="add-info" type="text" class="form-input" placeholder="Enter additional information..."></textarea>
+      </div>
+      <div id="submit-button"><label for="iagree" id="iagree-label" class="checkbox-container"><input type="checkbox" name="iagree" value="iagree" id="iagree">I agree with <a href="https://codepen.io/elenala/pen/KKKrOjR" target="blank">terms and conditions</a><span class="checkmark-checkbox"></span></label>
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </main>
+  <div class="footer">
+    <p>This page was designed and coded as part of <a href="https://www.freecodecamp.org" target="blank">freeCodeCamp</a> course work by EL.</p>
+  </div>
+</body>
+
+</html>
+</body>
+
+</html>
