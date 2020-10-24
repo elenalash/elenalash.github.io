@@ -1,0 +1,135 @@
+
+html {
+  font-size: 1em;
+}
+body {
+  font-family: 'Roboto', serif;
+  margin: 0;
+  background-color: rgb(233,233,233);
+  padding: 2%;
+  color: rgb(68,68,68)
+}
+#main {
+  display: grid;
+  grid-template-areas:
+    "figure title"
+    "figure tribute-info"
+    "figure add-info"
+    "ref ref"
+    "footer footer";
+  grid-template-columns: minmax(240px,35%) auto;
+  grid-column-gap: 2%;
+  width: 70%;
+  margin: auto;
+  padding: 2%;
+  background: white;
+}
+#img-div {
+  grid-area: figure;
+  width: 100%;
+  margin: auto;
+  margin-top: 0;
+  }
+img {
+  width: 100%;
+  display: block;
+  margin-top: 0;
+}
+#img-caption {
+  text-align: center;
+  margin-top: 2%;
+}
+#title {
+  grid-area: title;
+  margin: 0;
+  margin-top: 2%;
+  font-size: 3rem;
+  }
+#tribute-info {
+  grid-area: tribute-info;
+  margin: 0;
+}
+#quote {
+  text-align: justify;
+  font-style: italic;
+  grid-area: quote;
+}
+#signature {
+  grid-area: signature;
+  text-align: right;
+  margin: 0;
+}
+.quote {
+  display: grid;
+  grid-template-areas:
+    ". quote"
+    ". signature";
+  grid-template-columns: auto 60%;
+  margin-top: 2%;
+}
+#text {
+  margin-top: 5%;
+  text-align: justify;
+}
+#add-info {
+  grid-area: add-info;
+  width: 70%;
+  margin: auto;
+}
+#add-info-name {
+  text-align: center;
+}
+#ref {
+  grid-area: ref;  
+}
+footer {
+  grid-area: footer;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+@media (max-width: 920px){
+  #main{
+    width: 90%;
+  }
+  #add-info {
+    width: 80%;
+  }
+}
+@media (max-width: 680px){
+  #main{
+    grid-template-areas:
+    "title"
+    "tribute-info"
+    "figure"
+     "add-info"
+    "ref"
+    "footer";
+  grid-template-columns: 100%;
+  }
+  #img-caption {
+    visibility: hidden;
+  }
+  img {
+    max-width: 420px;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+  }
+}
+@media (max-width:460px) {
+  #main {
+    grid-template-columns: 100%;
+  } 
+  #title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  #add-info {
+    width: 100%;
+  }
+  .quote {
+      grid-template-columns: auto 70%;
+  }
+}
