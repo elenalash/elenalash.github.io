@@ -157,7 +157,8 @@ span {
     flex-direction: column;
   }
   .project-tile {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }  
 }
 /**under construction block
