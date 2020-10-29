@@ -118,10 +118,12 @@ img {
 #contacts {
   width: var(--page-width);
   margin: auto; 
+  margin-top: 2rem;
   color: var(--text-color-hightlight);
 }
 #contacts a {
   color: inherit;
+  padding-right: 2rem;
 }
 #page-footer {
   background: var(--menu-back-color);
