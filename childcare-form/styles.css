@@ -1,5 +1,6 @@
 html {
   font-size: 1em;
+  scroll-behavior: smooth;
 }
 :root {
   --form-color: rgb(132,9,215);
