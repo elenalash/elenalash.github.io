@@ -86,7 +86,8 @@ h1 {
   font-size: 3rem;
   white-space: nowrap;
 }
-#web-dev {
+#static,
+#dynamic {
   display: flex;
   flex-direction: row;
   justify-content: center;
