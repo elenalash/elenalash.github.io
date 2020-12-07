@@ -1,14 +1,13 @@
 # Hello! My name is Elena (aka ElenaLash)
 
-<img align="left" width="250" src="https://elenalash.github.io/myGitImg.jpg">
+<img align="left" width="30%" src="https://elenalash.github.io/myGitImg.jpg">
+<br>
 
 I am a full stack developer with background in [structural engineering](https://en.wikipedia.org/wiki/Structural_engineering). 
 <br> I am passionate about coding and happy to discover new tools.
-<br> I am based in [Canberra](https://en.wikipedia.org/wiki/Canberra) :australia: 
-
-
-
-
+<br> I am based in [Canberra](https://en.wikipedia.org/wiki/Canberra) 
+<br>
+<br>
 <br>
 
 ## My recent projects:
@@ -20,30 +19,20 @@ Tools used: Pthon, Flask, HTML, CSS, VS Code, Selenium, PyCharm
 Tools used: HTML, CSS, VS Code
 * [Tic-tac-toe]() - web game
 Tools used: Python, Flask, PyCharm
-
+* [My portfolio](elenalash.github.io)
 <br>
 
 ## My skill set:
 * HTML, CSS, Java Scrips ES6, Bootstrap
 * Python, Django, Flask, SQLite
-
 <br>
 
 ## My favourite learning resources:
 * [w3schools](https://www.w3schools.com/)
 * [freecodecamp](https://www.freecodecamp.org/)
 * [Tech With Tim YouTube Channel](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
-
 <br>
 
-## A cool fact about me:
-I like a simplistic aproach in web development and the fact is: I used only ONE emoji in this README.MD file and I wonder if you can find it without looking in to the source.
-
-<br>
-
-## [My portfolio](elenalash.github.io) 
-
-<br>
 
 ## Image attribution
 <a href="https://www.vecteezy.com/"> Vecteezy</a>
