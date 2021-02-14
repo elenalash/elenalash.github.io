@@ -27,6 +27,9 @@ html {
     --page-width: 95%;
   }
 }
+body {
+  background: var(--main-back-color);
+}
 #navbar {
   position: fixed;
   top: 0;
@@ -53,7 +56,6 @@ html {
 main {
   width: 100%;
   padding-top: 3rem;
-  background: var(--main-back-color);
 }
 #welcome-section {
   height: 100vh;
