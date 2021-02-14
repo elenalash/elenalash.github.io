@@ -8,14 +8,14 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Vollkorn', serif;
-  }
+}
 :root {
   --menu-back-color: #5C2751;
   --main-back-color: #9DACFF;
   --page-width: 70%;
   --text-color: #5C2751;
   --text-color-light: white;
-  --text-color-hightlight: #FB3640;  
+  --text-color-hightlight: #FB3640;
 }
 @media (max-width: 720px) {
   :root {
@@ -26,9 +26,6 @@ html {
   :root {
     --page-width: 95%;
   }
-}
-body {
-
 }
 #navbar {
   position: fixed;
@@ -105,7 +102,6 @@ h1 {
 }
 .link-project {
   text-decoration: none;
-  
 }
 img {
   display: block;
@@ -119,7 +115,7 @@ img {
 }
 #contacts {
   width: var(--page-width);
-  margin: auto; 
+  margin: auto;
   margin-top: 2rem;
   color: var(--text-color-hightlight);
 }
@@ -132,7 +128,7 @@ img {
   width: 100%;
   padding: 1rem;
   text-align: center;
-  color: var(--text-color-light); 
+  color: var(--text-color-light);
 }
 #page-footer a {
   color: inherit;
@@ -140,18 +136,18 @@ img {
 span {
   visibility: hidden;
 }
-@media(max-width:1080px) {
+@media (max-width: 1080px) {
   .project-tile {
     width: 31%;
   }
 }
-@media(max-width:720px) {
+@media (max-width: 720px) {
   .project-tile {
     width: 48%;
   }
 }
-@media(max-width: 480px) {
-    .nav-list {
+@media (max-width: 480px) {
+  .nav-list {
     text-align: center;
   }
   #nav-bar-list {
@@ -161,9 +157,9 @@ span {
     flex-direction: column;
   }
   .project-tile {
-  width: 80%;
-  margin: auto;
-}  
+    width: 80%;
+    margin: auto;
+  }
 }
 /**under construction block
 header, main, footer {
@@ -178,4 +174,4 @@ span {
     text-align: center;
     font-size: 3rem;
 }
-**/ 
+**/
